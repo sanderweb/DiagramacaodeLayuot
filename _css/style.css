@@ -1,0 +1,60 @@
+@charset"utf8";
+
+bady {
+    background: #000;
+    margin: 0 auto;
+    padding: 0 auto;
+}    
+
+/*
+NÃO ESQUECER! IMPORTANTE! TUDO QUE ESTA DENTRO DA 'DIV="SITE"' É 
+REPLICADO PARA TODO O SITE OK OBS: COLOR: WHITE. OU POSIÇÕES DE LEMENTOS.
+*/
+
+div#site {
+    background: #999;
+    color: white;
+    width: 990px;
+    margin: auto;
+    padding: 5px;
+}
+
+div#topo {
+    background: #333;
+    height: 120px;
+    padding: 1px;
+}
+
+div#topo h1 {
+    margin-top: 0;
+}
+
+div#menu {
+    background: #333;
+    height: 50px;
+    margin-top: -13px;
+}
+
+div#conteudo {
+    background: #333;
+    height: 500px;
+    width: 750px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;    
+}
+
+div#sidebar {
+    background: #333;
+    height: 500px;
+    margin-top: 5px;
+    width: 235px;
+    float: right;
+}
+
+div#rodape {
+    background: #333;
+    height: 80px;
+    clear: both;
+}
+
